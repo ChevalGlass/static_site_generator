@@ -23,3 +23,18 @@ The current features are:
 Planned features:
 - Specify the site prefix for the title of each page. (Will show up before the title specified in the meta data file.)
 - A site navigation cache to allow updating a single page instead of the whole site.
+
+## Example site structure.
+.
+├── docs
+│   ├── index.html
+│   └── pages
+│       └── example_page.html
+├── docs_md
+│   ├── index.json
+│   ├── index.md
+│   └── pages
+│       ├── example_page.json
+│       └── example_page.md
+├── master_template.html
+└── styles
