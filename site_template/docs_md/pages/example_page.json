@@ -1,0 +1,5 @@
+{
+	"title": "Page with additional css/javascript",
+	"styles": ["page_specific.css"],
+	"scripts": ["page_specific.js"]
+}
